@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Basics}
+\date{August 2025}
+
+\begin{document}
+
+\maketitle
+
+\section{Terminal}
+\begin{enumerate}
+    \item \texttt{Up Arrow}: Will show your last command
+    \item \texttt{Down Arrow}: Will show your next command
+    \item \texttt{Tab}: Will auto-complete your command
+    \item \texttt{Ctrl + L}: Will clear the screen
+    \item \texttt{Ctrl + C}: Will cancel a command
+    \item \texttt{Ctrl + R}: Will search for a command
+    \item \texttt{Ctrl + D}: Will exit the terminal
+\end{enumerate}
+
+\section{File Commands}
+\begin{enumerate}
+    \item \texttt{touch filename}: Creates a new empty file
+    \item \texttt{cp source destination}: Copies a file or folder
+    \item \texttt{mv source destination}: Moves or renames a file/folder
+    \item \texttt{mkdir foldernae}: Creates a folder
+    \item \texttt{rm filename}: Deletes a file
+    \item \texttt{rm -r foldername}: Deletes a folder and its contents
+    \item \texttt{cat filename}: Displays contents of a file
+    \item \texttt{nvim filename}: Opens the file in the nvim editor
+\end{enumerate}
+
+\section{Navigation Commands}
+\begin{enumerate}
+    \item \texttt{pwd}: Shows the present working directory
+    \item \texttt{ls}: Lists files and directories in the current location
+    \item \texttt{ls -la}: Lists all files, including hidden ones, in long format
+    \item \texttt{cd foldername}: Changes directory to \texttt{foldername}
+    \item \texttt{cd ..}: Goes up one directory
+    \item \texttt{cd /}: Goes to the root directory
+    \item \texttt{cd \~{}}: Goes to the home directory
+\end{enumerate}
+
+
+\section{Git Basics}
+\begin{enumerate}
+    \item \texttt{git init}: Initializes a new git repository
+    \item \texttt{git clone <url>}: Clones a repository
+    \item \texttt{git add <file>}: Stages a file
+    \item \texttt{git commit -m "message"}: Commits staged changes
+    \item \texttt{git push}: Pushes commits to remote repository
+    \item \texttt{git pull}: Pulls changes from remote repository
+    \item \texttt{git log}: Shows commit history
+\end{enumerate}
+
+\section{Running A program}
+\begin{enumerate}
+    \item \texttt{python filename.py}: Runs a Python script
+    \item \texttt{pip install package}: Installs a Python package (Given pip is already installed)
+    \item \texttt{gcc filename.c -o output}: Compiles a C program
+    \item \texttt{g++ filename.cpp -o output}: Compiles a C++ program
+    \item \texttt{./output}: Runs the compiled program
+    \item \texttt{pdflatex filename.tex}: Compiles the latex code and produces the output
+\end{enumerate}
+
+\section{Process of making a Pull Request}
+\begin{enumerate}
+    \item Go to the repository that you want to fork
+    \item Press the fork option. It will get forked into your repository (Making a clone of a repository in your account)
+    \item Download the repository in your device using the command git clone
+    \item Make changes locally
+    \item git add . and git commit -m Commit-message to update the changes
+    \item git push to upload the changes in your repository on GitHub
+    \item Make a pull request by selecting the Contribute option on your repository (clone) page on GitHub
+    \item select the make pull request option
+\end{enumerate}
+
+\end{document}

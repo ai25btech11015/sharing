@@ -1,0 +1,26 @@
+sudo apt install -y build-essential cmake openssh-server curl git wget subversion silversearcher-ag imagemagick python3 python3-pip python3-venv python3-numpy python3-scipy python3-matplotlib python3-mpmath python3-sympy python3-cvxopt neovim ranger libxtst-dev libx11-dev gnumeric texlive-full nano
+
+
+Mobile : Always use proot destroy command
+
+Nvim :
+
+edit tex in overleaf
+nvim main.tex
+i for insert
+:w --> save
+:wq --> exit
+
+pdflatex main.tex (creates main.log and stuff)
+
+
+
+Git stuff :
+git add .
+git commit -m ""
+git push
+
+Token :
+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
+
+copy permalink adn send to sir after approval do git push
